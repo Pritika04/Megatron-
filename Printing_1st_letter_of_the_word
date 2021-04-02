@@ -1,3 +1,5 @@
+# Q: Print the initial letter of the phrase, and return it in uppercase. 
+
 def initials(phrase):
     words = phrase.split()
     result = ""
