@@ -93,7 +93,7 @@ explode = (0.1,0)
 plt.figure(figsize=(15,5))
 plt.pie(covid_data,explode = explode, labels=covid_data_labels,colors=covid_colors, autopct='%.0f%%', wedgeprops={"edgecolor":"0", "linewidth":1.5}, textprops={"fontsize":13})
 plt.legend(title="Legend",loc="upper right",bbox_to_anchor=(1,0,0.5,1))
-plt.title("COVID-19 in India vs World", fontsize=15)
+plt.title("COVID-19 in India as a % of the World", fontsize=15)
 
 
 # In[ ]:
